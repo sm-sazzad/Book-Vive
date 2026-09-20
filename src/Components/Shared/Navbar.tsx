@@ -31,7 +31,7 @@ function Navbar() {
                 <NavbarCollapse className="text-white">
                     <Link href="/">Home</Link>
                     <Link href={"/listed-books"}>Listed Books</Link>
-                    <Link href={"/page-to-read"}>Pages to Read</Link>
+                    <Link href={"/read-pages"}>Pages to Read</Link>
                 </NavbarCollapse>
             </MegaMenu>
         </div>
