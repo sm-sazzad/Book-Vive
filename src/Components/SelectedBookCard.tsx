@@ -1,4 +1,5 @@
 import { IBook } from '@/app/BookType';
+import Button from '@/btn/button';
 import Image from 'next/image';
 
 
@@ -166,21 +167,7 @@ const SelectedBookCard = ({ book }: BookCardProps) => {
 
 
                     {/* Buttons */}
-                    <div className="mt-auto flex gap-3 pt-8">
-
-                        <button
-                            className="cursor-pointer flex-1 rounded-xl border-2 border-emerald-500 px-5 py-3 text-sm font-bold text-emerald-600 transition-all duration-300 hover:bg-emerald-50"
-                        >
-                            Read Book
-                        </button>
-
-                        <button
-                            className="flex-1 cursor-pointer rounded-xl bg-emerald-500 px-5 py-3 text-sm font-bold text-white shadow-md shadow-emerald-200 transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-600 hover:shadow-lg"
-                        >
-                            ♡ Add to Wishlist
-                        </button>
-
-                    </div>
+                    <Button book={book} />
 
                 </div>
 
