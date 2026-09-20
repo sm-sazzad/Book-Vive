@@ -1,4 +1,4 @@
-
+import logo from '@/assets/book.ico'
 import {
     Button,
     MegaMenu,
@@ -8,14 +8,15 @@ import {
     NavbarLink,
     NavbarToggle,
 } from "flowbite-react";
+import Image from 'next/image';
 import Link from "next/link";
 function Navbar() {
     return (
         <div >
             <MegaMenu>
                 <NavbarBrand href="/">
-                    <img alt="" src="/favicon.svg" className="mr-3 h-6 sm:h-9" />
-                    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+                    <Image alt="Book Vive" src={logo} className="mr-3 h-6 sm:h-9" />
+                    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Book Vive</span>
                 </NavbarBrand>
                 <div className="order-2 hidden items-center md:flex">
                     <a

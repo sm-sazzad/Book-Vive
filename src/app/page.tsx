@@ -1,11 +1,11 @@
-
-import React from 'react';
+import Banner from '@/Components/Banner';
+import Books from '@/Components/Books';
 
 const page = () => {
   return (
     <div>
-      Banner
-
+      <Banner />
+      <Books />
     </div>
   );
 };
