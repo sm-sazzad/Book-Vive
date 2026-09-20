@@ -32,9 +32,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <ToastContainer />
           <Navbar />
 
-          <div>
+          <main className="flex-1">
             {children}
-          </div>
+          </main>
 
           <FooterSection />
         </ContextProvider>

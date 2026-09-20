@@ -3,7 +3,7 @@ import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, Footer
 
 export function FooterSection() {
     return (
-        <Footer container className="mt-20">
+        <Footer container className="mt-20 ">
             <div className="w-full text-center">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <FooterBrand

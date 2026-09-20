@@ -12,7 +12,7 @@ import Image from 'next/image';
 import Link from "next/link";
 function Navbar() {
     return (
-        <div >
+        <div className='sticky top-0 z-100'>
             <MegaMenu>
                 <NavbarBrand href="/">
                     <Image alt="Book Vive" src={logo} className="mr-3 h-6 sm:h-9" />
